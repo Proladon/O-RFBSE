@@ -849,11 +849,7 @@
     <!-- http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#LED燈條 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#LED燈條">
-        <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#DesignTasks"/>
-        <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#Elements"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#LED燈條"/>
-        <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#RFBSE"/>
-        <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#Structural_Decomposition"/>
     </owl:NamedIndividual>
     
 
@@ -861,14 +857,8 @@
     <!-- http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#Maker -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#Maker">
-        <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#DesignTasks"/>
-        <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#Elements"/>
-        <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#RFBSE"/>
-        <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#Requirement_Analysis"/>
-        <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#User_Requirement"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#Users_Group"/>
-        <part_of rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#MasterCase_MC500_需求"/>
-        <part_of rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#MasterCase_Pro6_需求"/>
+        <part_of rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#MasterCase_Requirement"/>
         <Why rdf:datatype="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#隱性知識">同時符合MasterCase這個系列與CoolerMaster的形象</Why>
     </owl:NamedIndividual>
     
@@ -904,6 +894,15 @@
     
 
 
+    <!-- http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#MasterCase_LeftPanel -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#MasterCase_LeftPanel">
+        <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#LeftCover"/>
+        <材質 rdf:datatype="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#陳述性知識">強化玻璃</材質>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#MasterCase_MC500 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#MasterCase_MC500">
@@ -915,7 +914,7 @@
         <has rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#MasterCase_MC500_Front_DustCover"/>
         <has rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#MasterCase_MC500_IO_Panel"/>
         <has rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#MasterCase_MC500_Upper_DustCover"/>
-        <has rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#MasterCase_MC500_需求"/>
+        <has rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#MasterCase_Requirement"/>
         <系列 rdf:datatype="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#陳述性知識">MasterCase</系列>
     </owl:NamedIndividual>
     
@@ -1016,53 +1015,14 @@
     
 
 
-    <!-- http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#MasterCase_MC500_右側板 -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#MasterCase_MC500_右側板">
-        <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#RightCover"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#MasterCase_MC500_左側板 -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#MasterCase_MC500_左側板">
-        <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#LeftCover"/>
-        <材質 rdf:datatype="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#陳述性知識">強化玻璃</材質>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#MasterCase_MC500_遮線板 -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#MasterCase_MC500_遮線板">
-        <材質 rdf:datatype="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#陳述性知識">SPCC</材質>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#MasterCase_MC500_需求 -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#MasterCase_MC500_需求">
-        <has rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#Maker"/>
-        <has rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#鈑件"/>
-        <part_of rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#MasterCase_MC500"/>
-    </owl:NamedIndividual>
-    
-
-
     <!-- http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#MasterCase_Pro6 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#MasterCase_Pro6">
         <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#ATX"/>
-        <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#Domain"/>
-        <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#PC_Case"/>
-        <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#Scale"/>
         <has rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#MasterCase_HDD_Stock_3Bay"/>
         <has rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#MasterCase_Pro6_FrontCover"/>
         <has rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#MasterCase_Pro6_IO_Panel"/>
         <has rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#MasterCase_Pro6_RearCover"/>
-        <has rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#MasterCase_Pro6_需求"/>
         <系列 rdf:datatype="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#陳述性知識">MasterCase</系列>
     </owl:NamedIndividual>
     
@@ -1071,9 +1031,7 @@
     <!-- http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#MasterCase_Pro6_FrontCover -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#MasterCase_Pro6_FrontCover">
-        <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#Domain"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#FrontCover"/>
-        <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#PC_Case"/>
         <part_of rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#MasterCase_Pro6"/>
         <系列 rdf:datatype="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#顯性知識">MasterCase</系列>
     </owl:NamedIndividual>
@@ -1083,7 +1041,6 @@
     <!-- http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#MasterCase_Pro6_IO_Panel -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#MasterCase_Pro6_IO_Panel">
-        <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#PC_Case"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#I/O"/>
         <part_of rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#MasterCase_Pro6"/>
     </owl:NamedIndividual>
@@ -1093,32 +1050,43 @@
     <!-- http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#MasterCase_Pro6_RearCover -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#MasterCase_Pro6_RearCover">
-        <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#Domain"/>
-        <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#PC_Case"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#RearCover"/>
         <part_of rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#MasterCase_Pro6"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#MasterCase_Pro6_需求 -->
+    <!-- http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#MasterCase_Requirement -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#MasterCase_Pro6_需求">
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#MasterCase_Requirement">
         <has rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#Maker"/>
         <has rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#鈑件"/>
-        <part_of rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#MasterCase_Pro6"/>
+        <part_of rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#MasterCase_MC500"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#Rubber_Fit -->
+    <!-- http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#MasterCase_RightPanel -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#Rubber_Fit">
-        <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#DesignTasks"/>
-        <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#Elements"/>
-        <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#RFBSE"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#MasterCase_RightPanel">
+        <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#RightCover"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#MasterCase_Rubber_Fit -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#MasterCase_Rubber_Fit">
         <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#Rubber_Fit"/>
-        <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#Structural_Decomposition"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#MasterCase_Wire_Cover -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#MasterCase_Wire_Cover">
+        <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#Cover"/>
+        <材質 rdf:datatype="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#陳述性知識">SPCC</材質>
     </owl:NamedIndividual>
     
 
@@ -1152,9 +1120,6 @@
     <!-- http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#乘載HDD -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#乘載HDD">
-        <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#DesignTasks"/>
-        <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#Elements"/>
-        <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#RFBSE"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#乘載HDD"/>
     </owl:NamedIndividual>
     
@@ -1163,9 +1128,6 @@
     <!-- http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#乘載SSD -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#乘載SSD">
-        <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#DesignTasks"/>
-        <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#Elements"/>
-        <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#RFBSE"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#乘載SSD"/>
     </owl:NamedIndividual>
     
@@ -1174,9 +1136,6 @@
     <!-- http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#乘載水冷排 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#乘載水冷排">
-        <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#DesignTasks"/>
-        <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#Elements"/>
-        <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#RFBSE"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#乘載水冷排"/>
     </owl:NamedIndividual>
     
@@ -1186,7 +1145,6 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#勾住鈑件">
         <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#Elements"/>
-        <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#RFBSE"/>
         <part_of rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#防脫離"/>
     </owl:NamedIndividual>
     
@@ -1195,10 +1153,6 @@
     <!-- http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#卡扣 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#卡扣">
-        <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#DesignTasks"/>
-        <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#Elements"/>
-        <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#RFBSE"/>
-        <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#Structural_Decomposition"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#卡扣"/>
     </owl:NamedIndividual>
     
@@ -1207,9 +1161,6 @@
     <!-- http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#固定水冷排 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#固定水冷排">
-        <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#DesignTasks"/>
-        <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#Elements"/>
-        <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#RFBSE"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#固定水冷排"/>
     </owl:NamedIndividual>
     
@@ -1218,10 +1169,6 @@
     <!-- http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#外觀 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#外觀">
-        <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#DesignTasks"/>
-        <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#Elements"/>
-        <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#RFBSE"/>
-        <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#Requirement_Analysis"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#Specification"/>
         <What rdf:datatype="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#顯性知識">六角面幾何形狀</What>
         <Why rdf:datatype="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#隱性知識">CoolerMaster的企業象徵幾何形</Why>
@@ -1233,10 +1180,6 @@
     <!-- http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#大面積塑膠板 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#大面積塑膠板">
-        <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#DesignTasks"/>
-        <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#Elements"/>
-        <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#RFBSE"/>
-        <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#Structural_Decomposition"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#大面積塑膠板"/>
     </owl:NamedIndividual>
     
@@ -1245,10 +1188,6 @@
     <!-- http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#大面積密集陣列鐵網 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#大面積密集陣列鐵網">
-        <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#DesignTasks"/>
-        <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#Elements"/>
-        <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#RFBSE"/>
-        <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#Structural_Decomposition"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#大面積密集陣列鐵網"/>
     </owl:NamedIndividual>
     
@@ -1257,10 +1196,6 @@
     <!-- http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#大面積金屬鈑件 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#大面積金屬鈑件">
-        <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#DesignTasks"/>
-        <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#Elements"/>
-        <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#RFBSE"/>
-        <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#Structural_Decomposition"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#大面積金屬鈑件"/>
     </owl:NamedIndividual>
     
@@ -1270,7 +1205,6 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#快速拆裝">
         <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#Elements"/>
-        <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#RFBSE"/>
     </owl:NamedIndividual>
     
 
@@ -1278,9 +1212,6 @@
     <!-- http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#拆裝 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#拆裝">
-        <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#DesignTasks"/>
-        <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#Elements"/>
-        <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#RFBSE"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#拆裝"/>
     </owl:NamedIndividual>
     
@@ -1289,10 +1220,6 @@
     <!-- http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#滑軌溝槽與滑塊 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#滑軌溝槽與滑塊">
-        <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#DesignTasks"/>
-        <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#Elements"/>
-        <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#RFBSE"/>
-        <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#Structural_Decomposition"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#滑軌溝槽與滑塊"/>
     </owl:NamedIndividual>
     
@@ -1301,10 +1228,6 @@
     <!-- http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#漆面 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#漆面">
-        <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#DesignTasks"/>
-        <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#Elements"/>
-        <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#RFBSE"/>
-        <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#Requirement_Analysis"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#Specification"/>
     </owl:NamedIndividual>
     
@@ -1313,10 +1236,6 @@
     <!-- http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#矩形簍空折彎鈑件 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#矩形簍空折彎鈑件">
-        <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#DesignTasks"/>
-        <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#Elements"/>
-        <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#RFBSE"/>
-        <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#Structural_Decomposition"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#矩形簍空折彎鈑件"/>
     </owl:NamedIndividual>
     
@@ -1325,10 +1244,6 @@
     <!-- http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#透明壓克力板 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#透明壓克力板">
-        <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#DesignTasks"/>
-        <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#Elements"/>
-        <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#RFBSE"/>
-        <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#Structural_Decomposition"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#透明壓克力板"/>
     </owl:NamedIndividual>
     
@@ -1337,11 +1252,7 @@
     <!-- http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#透視內部 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#透視內部">
-        <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#DesignTasks"/>
-        <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#Elements"/>
-        <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#RFBSE"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#透視內部"/>
-        <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#隔絕外部與封閉氣室維持機殼外觀整體性"/>
     </owl:NamedIndividual>
     
 
@@ -1349,9 +1260,6 @@
     <!-- http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#過濾攔截灰塵 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#過濾攔截灰塵">
-        <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#DesignTasks"/>
-        <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#Elements"/>
-        <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#RFBSE"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#過濾攔截灰塵"/>
     </owl:NamedIndividual>
     
@@ -1360,9 +1268,6 @@
     <!-- http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#遮蔽電線 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#遮蔽電線">
-        <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#DesignTasks"/>
-        <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#Elements"/>
-        <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#RFBSE"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#遮蔽電線"/>
     </owl:NamedIndividual>
     
@@ -1371,13 +1276,8 @@
     <!-- http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#鈑件 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#鈑件">
-        <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#DesignTasks"/>
-        <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#Elements"/>
-        <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#RFBSE"/>
-        <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#Requirement_Analysis"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#Specification"/>
-        <part_of rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#MasterCase_MC500_需求"/>
-        <part_of rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#MasterCase_Pro6_需求"/>
+        <part_of rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#MasterCase_Requirement"/>
         <厚度 rdf:datatype="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#陳述性知識">0.8</厚度>
         <尺寸 rdf:datatype="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#陳述性知識">0.8</尺寸>
         <材質 rdf:datatype="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#陳述性知識">SPCC</材質>
@@ -1388,11 +1288,7 @@
     <!-- http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#防止外部灰塵進入 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#防止外部灰塵進入">
-        <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#DesignTasks"/>
-        <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#Elements"/>
-        <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#RFBSE"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#防止外部灰塵進入"/>
-        <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#隔絕外部與封閉氣室維持機殼外觀整體性"/>
     </owl:NamedIndividual>
     
 
@@ -1400,9 +1296,6 @@
     <!-- http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#防脫離 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#防脫離">
-        <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#DesignTasks"/>
-        <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#Elements"/>
-        <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#RFBSE"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#防脫離"/>
         <has rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#勾住鈑件"/>
     </owl:NamedIndividual>
@@ -1412,10 +1305,6 @@
     <!-- http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#防脫離手轉螺絲 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#防脫離手轉螺絲">
-        <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#DesignTasks"/>
-        <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#Elements"/>
-        <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#RFBSE"/>
-        <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#Structural_Decomposition"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#防脫離手轉螺絲"/>
     </owl:NamedIndividual>
     
