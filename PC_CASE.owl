@@ -1,0 +1,1620 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#"
+     xml:base="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:swrl="http://www.w3.org/2003/11/swrl#"
+     xmlns:swrla="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#"
+     xmlns:swrlb="http://www.w3.org/2003/11/swrlb#"
+     xmlns:PC_CASE="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CoolerMaster MasterCase Serises Ontology Konwledge Base.</rdfs:comment>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled -->
+
+    <owl:AnnotationProperty rdf:about="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Datatypes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#內隱知識 -->
+
+    <rdfs:Datatype rdf:about="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#內隱知識">
+        <owl:equivalentClass rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </rdfs:Datatype>
+    
+
+
+    <!-- http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#程序性知識 -->
+
+    <rdfs:Datatype rdf:about="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#程序性知識">
+        <owl:equivalentClass rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </rdfs:Datatype>
+    
+
+
+    <!-- http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#策略性知識 -->
+
+    <rdfs:Datatype rdf:about="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#策略性知識">
+        <owl:equivalentClass rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </rdfs:Datatype>
+    
+
+
+    <!-- http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#陳述性知識 -->
+
+    <rdfs:Datatype rdf:about="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#陳述性知識">
+        <owl:equivalentClass rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </rdfs:Datatype>
+    
+
+
+    <!-- http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#隱性知識 -->
+
+    <rdfs:Datatype rdf:about="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#隱性知識">
+        <owl:equivalentClass rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </rdfs:Datatype>
+    
+
+
+    <!-- http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#顯性知識 -->
+
+    <rdfs:Datatype rdf:about="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#顯性知識">
+        <owl:equivalentClass rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </rdfs:Datatype>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#from -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#from"/>
+    
+
+
+    <!-- http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#has -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#has">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#part_of"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#part_of -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#part_of"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#Adopt -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#Adopt">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#How -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#How">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#What -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#What"/>
+    
+
+
+    <!-- http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#When -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#When">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#Where -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#Where">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#Why -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#Why">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#厚度 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#厚度">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#尺寸"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#顯性知識"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#寬度 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#寬度">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#尺寸"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#顯性知識"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#尺寸 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#尺寸">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#顯性知識"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#材質 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#材質">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#陳述性知識"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#深度 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#深度">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#尺寸"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#顯性知識"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#系列 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#系列">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#顯性知識"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#長度 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#長度">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#尺寸"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#顯性知識"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#高度 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#高度">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#尺寸"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#顯性知識"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#ATX -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#ATX">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#Scale"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#Actual_Behaviour_Evalution -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#Actual_Behaviour_Evalution">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#DesignTasks"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#Behaviour -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#Behaviour">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#Elements"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#Bottom_DustCover -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#Bottom_DustCover">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#DustCover"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#Cover -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#Cover">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#PC_Case"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#DesignTasks -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#DesignTasks">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#RFBSE"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#Domain -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#Domain"/>
+    
+
+
+    <!-- http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#DustCover -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#DustCover">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#PC_Case"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#EATX -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#EATX">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#Scale"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#Elements -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#Elements">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#RFBSE"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#Evolution -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#Evolution">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#Elements"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#Expected_Behaviour_Analysis -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#Expected_Behaviour_Analysis">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#DesignTasks"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#FrontCover -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#FrontCover">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#Cover"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#Front_DustCover -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#Front_DustCover">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#DustCover"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#Function -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#Function">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#Elements"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#Functional_Decomposition -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#Functional_Decomposition">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#DesignTasks"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#Hardware_Stock -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#Hardware_Stock">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#PC_Case"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#ITX -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#ITX">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#Scale"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#LED燈條 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#LED燈條">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#Structural_Decomposition"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#LeftCover -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#LeftCover">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#Cover"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#M-ATX -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#M-ATX">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#Scale"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#Marketing_Requirement -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#Marketing_Requirement">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#Requirement_Analysis"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#MicoPhone -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#MicoPhone">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#I/O"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#PCIE_Slot -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#PCIE_Slot">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#PC_Case"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#PC_Case -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#PC_Case">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#Domain"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#Power_Button -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#Power_Button">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#I/O"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#RFBSE -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#RFBSE"/>
+    
+
+
+    <!-- http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#RGB變換燈色 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#RGB變換燈色">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#大面積RGB變色發光"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#RearCover -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#RearCover">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#Cover"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#Requirement -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#Requirement">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#Elements"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#Requirement_Analysis -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#Requirement_Analysis">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#DesignTasks"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#Restart_Button -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#Restart_Button">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#I/O"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#RightCover -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#RightCover">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#Cover"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#Rubber_Fit -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#Rubber_Fit">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#Structural_Decomposition"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#SSD_Stock -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#SSD_Stock">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#Hardware_Stock"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#Scale -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#Scale">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#PC_Case"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#Specification -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#Specification">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#Requirement_Analysis"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#Structural_Decomposition -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#Structural_Decomposition">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#DesignTasks"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#Structure -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#Structure">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#Elements"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#TopCover -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#TopCover">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#Cover"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#Top_DustCover -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#Top_DustCover">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#DustCover"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#User_Requirement -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#User_Requirement">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#Requirement_Analysis"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#Users_Group -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#Users_Group">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#Requirement_Analysis"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#上下氣室分流 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#上下氣室分流">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#Functional_Decomposition"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#乘載HDD -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#乘載HDD">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#Functional_Decomposition"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#乘載SSD -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#乘載SSD">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#Functional_Decomposition"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#乘載水冷排 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#乘載水冷排">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#Functional_Decomposition"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#卡扣 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#卡扣">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#Structural_Decomposition"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#固定水冷排 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#固定水冷排">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#Functional_Decomposition"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#大面積RGB變色發光 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#大面積RGB變色發光">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#Functional_Decomposition"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#大面積塑膠板 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#大面積塑膠板">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#Structural_Decomposition"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#大面積密集陣列鐵網 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#大面積密集陣列鐵網">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#Structural_Decomposition"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#大面積發光 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#大面積發光">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#大面積RGB變色發光"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#大面積金屬鈑件 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#大面積金屬鈑件">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#Structural_Decomposition"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#拆裝 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#拆裝">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#Functional_Decomposition"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#滑軌溝槽與滑塊 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#滑軌溝槽與滑塊">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#Structural_Decomposition"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#矩形簍空折彎鈑件 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#矩形簍空折彎鈑件">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#Structural_Decomposition"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#透明壓克力板 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#透明壓克力板">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#Structural_Decomposition"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#透視內部 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#透視內部">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#隔絕外部與封閉氣室維持機殼外觀整體性"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#過濾攔截灰塵 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#過濾攔截灰塵">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#Functional_Decomposition"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#遮蔽電線 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#遮蔽電線">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#Functional_Decomposition"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#防止外部灰塵進入 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#防止外部灰塵進入">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#隔絕外部與封閉氣室維持機殼外觀整體性"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#防脫離 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#防脫離">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#Functional_Decomposition"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#防脫離手轉螺絲 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#防脫離手轉螺絲">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#Structural_Decomposition"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#隔絕外部與封閉氣室維持機殼外觀整體性 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#隔絕外部與封閉氣室維持機殼外觀整體性">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#Functional_Decomposition"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#2.0USB -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#2.0USB">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#I/O"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#3.0USB -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#3.0USB">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#I/O"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#3.1USB -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#3.1USB">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#I/O"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#3.5EarPhone -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#3.5EarPhone">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#I/O"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#3.5_HDD_Stock -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#3.5_HDD_Stock">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#Hardware_Stock"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#5.25_CD_Room_Stock -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#5.25_CD_Room_Stock">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#Hardware_Stock"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#I/O -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#I/O">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#PC_Case"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#LED燈條 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#LED燈條">
+        <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#DesignTasks"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#Elements"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#LED燈條"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#RFBSE"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#Structural_Decomposition"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#Maker -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#Maker">
+        <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#DesignTasks"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#Elements"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#RFBSE"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#Requirement_Analysis"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#User_Requirement"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#Users_Group"/>
+        <part_of rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#MasterCase_MC500_需求"/>
+        <part_of rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#MasterCase_Pro6_需求"/>
+        <Why rdf:datatype="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#隱性知識">同時符合MasterCase這個系列與CoolerMaster的形象</Why>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#MasterCase_CD_Room_Stock -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#MasterCase_CD_Room_Stock">
+        <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#5.25_CD_Room_Stock"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#MasterCase_HDD_Stock_2Bay -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#MasterCase_HDD_Stock_2Bay">
+        <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#3.5_HDD_Stock"/>
+        <part_of rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#MasterCase_MC500"/>
+        <part_of rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#MasterCase_MC500M"/>
+        <系列 rdf:datatype="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#陳述性知識">MasterCase</系列>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#MasterCase_HDD_Stock_3Bay -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#MasterCase_HDD_Stock_3Bay">
+        <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#3.5_HDD_Stock"/>
+        <part_of rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#MasterCase_MC500"/>
+        <part_of rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#MasterCase_MC500M"/>
+        <part_of rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#MasterCase_Pro6"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#MasterCase_MC500 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#MasterCase_MC500">
+        <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#ATX"/>
+        <has rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#MasterCase_HDD_Stock_2Bay"/>
+        <has rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#MasterCase_HDD_Stock_3Bay"/>
+        <has rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#MasterCase_MC500_Bottom_DustCover"/>
+        <has rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#MasterCase_MC500_FrontCover"/>
+        <has rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#MasterCase_MC500_Front_DustCover"/>
+        <has rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#MasterCase_MC500_IO_Panel"/>
+        <has rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#MasterCase_MC500_Upper_DustCover"/>
+        <has rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#MasterCase_MC500_需求"/>
+        <系列 rdf:datatype="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#陳述性知識">MasterCase</系列>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#MasterCase_MC500M -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#MasterCase_MC500M">
+        <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#ATX"/>
+        <has rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#MasterCase_HDD_Stock_2Bay"/>
+        <has rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#MasterCase_HDD_Stock_3Bay"/>
+        <has rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#MasterCase_MC500M_FrontCover"/>
+        <系列 rdf:datatype="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#陳述性知識">MasterCase</系列>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#MasterCase_MC500M_FrontCover -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#MasterCase_MC500M_FrontCover">
+        <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#FrontCover"/>
+        <part_of rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#MasterCase_MC500M"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Why:
+為了同時追求靜音與散熱的平衡</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#MasterCase_MC500M_IO_Panel -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#MasterCase_MC500M_IO_Panel">
+        <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#I/O"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#MasterCase_MC500M_TopCover -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#MasterCase_MC500M_TopCover">
+        <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#TopCover"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#MasterCase_MC500_Bottom_DustCover -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#MasterCase_MC500_Bottom_DustCover">
+        <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#Bottom_DustCover"/>
+        <part_of rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#MasterCase_MC500"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#MasterCase_MC500_FrontCover -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#MasterCase_MC500_FrontCover">
+        <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#FrontCover"/>
+        <part_of rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#MasterCase_MC500"/>
+        <系列 rdf:datatype="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#顯性知識">MasterCase</系列>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#MasterCase_MC500_Front_DustCover -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#MasterCase_MC500_Front_DustCover">
+        <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#Front_DustCover"/>
+        <part_of rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#MasterCase_MC500"/>
+        <How rdf:datatype="http://www.w3.org/2001/XMLSchema#string">大面積的通風防塵網</How>
+        <Why rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MC500 作為基本骨架機體，須以散熱效能做為優先考慮，無須兼顧其他美觀、靜音等特殊需求</Why>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#MasterCase_MC500_IO_Panel -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#MasterCase_MC500_IO_Panel">
+        <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#I/O"/>
+        <part_of rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#MasterCase_MC500"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#MasterCase_MC500_SSD_Stock -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#MasterCase_MC500_SSD_Stock">
+        <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#SSD_Stock"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#MasterCase_MC500_Upper_DustCover -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#MasterCase_MC500_Upper_DustCover">
+        <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#Top_DustCover"/>
+        <part_of rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#MasterCase_MC500"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#MasterCase_MC500_右側板 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#MasterCase_MC500_右側板">
+        <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#RightCover"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#MasterCase_MC500_左側板 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#MasterCase_MC500_左側板">
+        <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#LeftCover"/>
+        <材質 rdf:datatype="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#陳述性知識">強化玻璃</材質>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#MasterCase_MC500_遮線板 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#MasterCase_MC500_遮線板">
+        <材質 rdf:datatype="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#陳述性知識">SPCC</材質>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#MasterCase_MC500_需求 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#MasterCase_MC500_需求">
+        <has rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#Maker"/>
+        <has rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#鈑件"/>
+        <part_of rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#MasterCase_MC500"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#MasterCase_Pro6 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#MasterCase_Pro6">
+        <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#ATX"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#Domain"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#PC_Case"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#Scale"/>
+        <has rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#MasterCase_HDD_Stock_3Bay"/>
+        <has rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#MasterCase_Pro6_FrontCover"/>
+        <has rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#MasterCase_Pro6_IO_Panel"/>
+        <has rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#MasterCase_Pro6_RearCover"/>
+        <has rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#MasterCase_Pro6_需求"/>
+        <系列 rdf:datatype="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#陳述性知識">MasterCase</系列>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#MasterCase_Pro6_FrontCover -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#MasterCase_Pro6_FrontCover">
+        <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#Domain"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#FrontCover"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#PC_Case"/>
+        <part_of rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#MasterCase_Pro6"/>
+        <系列 rdf:datatype="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#顯性知識">MasterCase</系列>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#MasterCase_Pro6_IO_Panel -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#MasterCase_Pro6_IO_Panel">
+        <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#PC_Case"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#I/O"/>
+        <part_of rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#MasterCase_Pro6"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#MasterCase_Pro6_RearCover -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#MasterCase_Pro6_RearCover">
+        <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#Domain"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#PC_Case"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#RearCover"/>
+        <part_of rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#MasterCase_Pro6"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#MasterCase_Pro6_需求 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#MasterCase_Pro6_需求">
+        <has rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#Maker"/>
+        <has rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#鈑件"/>
+        <part_of rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#MasterCase_Pro6"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#Rubber_Fit -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#Rubber_Fit">
+        <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#DesignTasks"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#Elements"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#RFBSE"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#Rubber_Fit"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#Structural_Decomposition"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#beha_test_false -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#beha_test_false">
+        <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#Expected_Behaviour_Analysis"/>
+        <Adopt rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</Adopt>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#behav_test_true -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#behav_test_true">
+        <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#Expected_Behaviour_Analysis"/>
+        <Adopt rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Adopt>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#上下氣室分流 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#上下氣室分流">
+        <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#上下氣室分流"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#乘載HDD -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#乘載HDD">
+        <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#DesignTasks"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#Elements"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#RFBSE"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#乘載HDD"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#乘載SSD -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#乘載SSD">
+        <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#DesignTasks"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#Elements"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#RFBSE"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#乘載SSD"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#乘載水冷排 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#乘載水冷排">
+        <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#DesignTasks"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#Elements"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#RFBSE"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#乘載水冷排"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#勾住鈑件 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#勾住鈑件">
+        <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#Elements"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#RFBSE"/>
+        <part_of rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#防脫離"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#卡扣 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#卡扣">
+        <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#DesignTasks"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#Elements"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#RFBSE"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#Structural_Decomposition"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#卡扣"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#固定水冷排 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#固定水冷排">
+        <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#DesignTasks"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#Elements"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#RFBSE"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#固定水冷排"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#外觀 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#外觀">
+        <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#DesignTasks"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#Elements"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#RFBSE"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#Requirement_Analysis"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#Specification"/>
+        <What rdf:datatype="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#顯性知識">六角面幾何形狀</What>
+        <Why rdf:datatype="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#隱性知識">CoolerMaster的企業象徵幾何形</Why>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">為品牌形象 PI</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#大面積塑膠板 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#大面積塑膠板">
+        <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#DesignTasks"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#Elements"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#RFBSE"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#Structural_Decomposition"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#大面積塑膠板"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#大面積密集陣列鐵網 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#大面積密集陣列鐵網">
+        <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#DesignTasks"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#Elements"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#RFBSE"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#Structural_Decomposition"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#大面積密集陣列鐵網"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#大面積金屬鈑件 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#大面積金屬鈑件">
+        <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#DesignTasks"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#Elements"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#RFBSE"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#Structural_Decomposition"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#大面積金屬鈑件"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#快速拆裝 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#快速拆裝">
+        <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#Elements"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#RFBSE"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#拆裝 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#拆裝">
+        <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#DesignTasks"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#Elements"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#RFBSE"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#拆裝"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#滑軌溝槽與滑塊 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#滑軌溝槽與滑塊">
+        <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#DesignTasks"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#Elements"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#RFBSE"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#Structural_Decomposition"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#滑軌溝槽與滑塊"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#漆面 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#漆面">
+        <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#DesignTasks"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#Elements"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#RFBSE"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#Requirement_Analysis"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#Specification"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#矩形簍空折彎鈑件 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#矩形簍空折彎鈑件">
+        <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#DesignTasks"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#Elements"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#RFBSE"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#Structural_Decomposition"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#矩形簍空折彎鈑件"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#透明壓克力板 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#透明壓克力板">
+        <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#DesignTasks"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#Elements"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#RFBSE"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#Structural_Decomposition"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#透明壓克力板"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#透視內部 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#透視內部">
+        <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#DesignTasks"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#Elements"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#RFBSE"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#透視內部"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#隔絕外部與封閉氣室維持機殼外觀整體性"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#過濾攔截灰塵 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#過濾攔截灰塵">
+        <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#DesignTasks"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#Elements"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#RFBSE"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#過濾攔截灰塵"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#遮蔽電線 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#遮蔽電線">
+        <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#DesignTasks"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#Elements"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#RFBSE"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#遮蔽電線"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#鈑件 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#鈑件">
+        <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#DesignTasks"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#Elements"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#RFBSE"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#Requirement_Analysis"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#Specification"/>
+        <part_of rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#MasterCase_MC500_需求"/>
+        <part_of rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#MasterCase_Pro6_需求"/>
+        <厚度 rdf:datatype="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#陳述性知識">0.8</厚度>
+        <尺寸 rdf:datatype="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#陳述性知識">0.8</尺寸>
+        <材質 rdf:datatype="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#陳述性知識">SPCC</材質>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#防止外部灰塵進入 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#防止外部灰塵進入">
+        <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#DesignTasks"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#Elements"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#RFBSE"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#防止外部灰塵進入"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#隔絕外部與封閉氣室維持機殼外觀整體性"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#防脫離 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#防脫離">
+        <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#DesignTasks"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#Elements"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#RFBSE"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#防脫離"/>
+        <has rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#勾住鈑件"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#防脫離手轉螺絲 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#防脫離手轉螺絲">
+        <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#DesignTasks"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#Elements"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#RFBSE"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#Structural_Decomposition"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#防脫離手轉螺絲"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Rules
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description rdf:about="urn:swrl:var#behav">
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="urn:swrl:var#func">
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="urn:swrl:var#req">
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="urn:swrl:var#struc">
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#Actual_Behaviour_Evalution"/>
+                        <swrl:argument1 rdf:resource="urn:swrl:var#behav"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#Adopt"/>
+                                <swrl:argument1 rdf:resource="urn:swrl:var#behav"/>
+                                <swrl:argument2 rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrl:argument2>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#Behaviour"/>
+                        <swrl:argument1 rdf:resource="urn:swrl:var#behav"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#Functional_Decomposition"/>
+                        <swrl:argument1 rdf:resource="urn:swrl:var#func"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#Function"/>
+                        <swrl:argument1 rdf:resource="urn:swrl:var#func"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#Requirement_Analysis"/>
+                        <swrl:argument1 rdf:resource="urn:swrl:var#req"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#Requirement"/>
+                        <swrl:argument1 rdf:resource="urn:swrl:var#req"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#Structural_Decomposition"/>
+                        <swrl:argument1 rdf:resource="urn:swrl:var#struc"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#Structure"/>
+                        <swrl:argument1 rdf:resource="urn:swrl:var#struc"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#Expected_Behaviour_Analysis"/>
+                        <swrl:argument1 rdf:resource="urn:swrl:var#behav"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#Adopt"/>
+                                <swrl:argument1 rdf:resource="urn:swrl:var#behav"/>
+                                <swrl:argument2 rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrl:argument2>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#Behaviour"/>
+                        <swrl:argument1 rdf:resource="urn:swrl:var#behav"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
