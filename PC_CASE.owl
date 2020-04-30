@@ -397,6 +397,22 @@
     
 
 
+    <!-- http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#Hold_HDD -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#Hold_HDD">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#Functional_Decomposition"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#Hold_SSD -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#Hold_SSD">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#Functional_Decomposition"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#ITX -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#ITX">
@@ -405,9 +421,9 @@
     
 
 
-    <!-- http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#LED燈條 -->
+    <!-- http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#LED_LightBar -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#LED燈條">
+    <owl:Class rdf:about="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#LED_LightBar">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#Structural_Decomposition"/>
     </owl:Class>
     
@@ -433,14 +449,6 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#Marketing_Requirement">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#Requirement_Analysis"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#MicoPhone -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#MicoPhone">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#I/O"/>
     </owl:Class>
     
 
@@ -571,17 +579,41 @@
     
 
 
-    <!-- http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#TopCover -->
+    <!-- http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#USB3.1 -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#TopCover">
+    <owl:Class rdf:about="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#USB3.1">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#I/O"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#USB_2.0 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#USB_2.0">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#I/O"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#USB_3.0 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#USB_3.0">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#I/O"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#UpperCover -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#UpperCover">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#Cover"/>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#Top_DustCover -->
+    <!-- http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#Upper_DustCover -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#Top_DustCover">
+    <owl:Class rdf:about="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#Upper_DustCover">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#DustCover"/>
     </owl:Class>
     
@@ -606,22 +638,6 @@
     <!-- http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#上下氣室分流 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#上下氣室分流">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#Functional_Decomposition"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#乘載HDD -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#乘載HDD">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#Functional_Decomposition"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#乘載SSD -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#乘載SSD">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#Functional_Decomposition"/>
     </owl:Class>
     
@@ -779,33 +795,9 @@
     
 
 
-    <!-- http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#2.0USB -->
+    <!-- http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#3.5_Earphone_output -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#2.0USB">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#I/O"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#3.0USB -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#3.0USB">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#I/O"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#3.1USB -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#3.1USB">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#I/O"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#3.5EarPhone -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#3.5EarPhone">
+    <owl:Class rdf:about="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#3.5_Earphone_output">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#I/O"/>
     </owl:Class>
     
@@ -815,6 +807,14 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#3.5_HDD_Stock">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#Hardware_Stock"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#3.5_Microphone_Input -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#3.5_Microphone_Input">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#I/O"/>
     </owl:Class>
     
 
@@ -843,14 +843,6 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
-    
-
-
-    <!-- http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#LED燈條 -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#LED燈條">
-        <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#LED燈條"/>
-    </owl:NamedIndividual>
     
 
 
@@ -954,7 +946,7 @@
     <!-- http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#MasterCase_MC500M_TopCover -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#MasterCase_MC500M_TopCover">
-        <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#TopCover"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#UpperCover"/>
     </owl:NamedIndividual>
     
 
@@ -1009,8 +1001,16 @@
     <!-- http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#MasterCase_MC500_Upper_DustCover -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#MasterCase_MC500_Upper_DustCover">
-        <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#Top_DustCover"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#Upper_DustCover"/>
         <part_of rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#MasterCase_MC500"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#MasterCase_MiddelPanel_LED_LightBar -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#MasterCase_MiddelPanel_LED_LightBar">
+        <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#LED_LightBar"/>
     </owl:NamedIndividual>
     
 
@@ -1120,7 +1120,7 @@
     <!-- http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#乘載HDD -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#乘載HDD">
-        <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#乘載HDD"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#Hold_HDD"/>
     </owl:NamedIndividual>
     
 
@@ -1128,7 +1128,7 @@
     <!-- http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#乘載SSD -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#乘載SSD">
-        <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#乘載SSD"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#Hold_SSD"/>
     </owl:NamedIndividual>
     
 
