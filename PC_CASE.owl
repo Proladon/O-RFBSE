@@ -1129,6 +1129,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#乘載HDD">
         <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#Hold_HDD"/>
+        <How rdf:datatype="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#陳述知識">托盤上就是有對應HDD孔洞的四個小Pin，要裝上去就是把托盤直接往兩側掰彎然後讓Pin去對準HDD的洞在合起來</How>
     </owl:NamedIndividual>
     
 
