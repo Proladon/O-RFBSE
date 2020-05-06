@@ -857,7 +857,7 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#Maker">
         <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#Users_Group"/>
         <part_of rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#MasterCase_Requirement"/>
-        <Why rdf:datatype="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#隱性知識">同時符合MasterCase這個系列與CoolerMaster的形象</Why>
+        <Why rdf:datatype="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#策略知識">同時符合MasterCase這個系列與CoolerMaster的形象</Why>
     </owl:NamedIndividual>
     
 
@@ -885,9 +885,11 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#MasterCase_HDD_Stock_3Bay">
         <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#3.5_HDD_Stock"/>
+        <has rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#乘載HDD"/>
         <part_of rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#MasterCase_MC500"/>
         <part_of rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#MasterCase_MC500M"/>
         <part_of rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#MasterCase_Pro6"/>
+        <材質 rdf:datatype="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#陳述知識">ABS</材質>
     </owl:NamedIndividual>
     
 
@@ -1176,8 +1178,9 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#外觀">
         <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#Specification"/>
-        <What rdf:datatype="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#顯性知識">六角面幾何形狀</What>
-        <Why rdf:datatype="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#隱性知識">CoolerMaster的企業象徵幾何形</Why>
+        <How rdf:datatype="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#程序知識">在2公尺以外需能辨識整個機箱的特徵輪廓</How>
+        <What rdf:datatype="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#陳述知識">六角面幾何形狀</What>
+        <Why rdf:datatype="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#策略知識">CoolerMaster的企業象徵幾何形</Why>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">為品牌形象 PI</rdfs:comment>
     </owl:NamedIndividual>
     
@@ -1284,9 +1287,9 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#鈑件">
         <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#Specification"/>
         <part_of rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#MasterCase_Requirement"/>
+        <Why rdf:datatype="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#情境知識">這攸關使用者體驗, 這個厚度與材質不容易在搬運或被重物壓到的情況下造成鈑件彎曲變形</Why>
         <厚度 rdf:datatype="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#陳述知識">0.8</厚度>
-        <尺寸 rdf:datatype="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#陳述知識">0.8</尺寸>
-        <材質 rdf:datatype="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#陳述知識">SPCC</材質>
+        <材質 rdf:datatype="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#陳述知識">SPCC 冷軋鋼板</材質>
     </owl:NamedIndividual>
     
 
