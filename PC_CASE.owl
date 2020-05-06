@@ -886,10 +886,13 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#MasterCase_HDD_Stock_3Bay">
         <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#3.5_HDD_Stock"/>
         <has rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#乘載HDD"/>
+        <has rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#乘載SSD"/>
         <part_of rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#MasterCase_MC500"/>
         <part_of rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#MasterCase_MC500M"/>
         <part_of rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#MasterCase_Pro6"/>
+        <How rdf:datatype="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#陳述知識">HDD的托盤上有對應SSD鎖點的螺絲孔，使用者可以從我們附的配件包去找到螺絲可以拿來鎖SSD上去，所以其實HDD架有兩種型式，一種就是平常你可以乘載HDD，另外一種就是你可以選擇乘載SSD</How>
         <材質 rdf:datatype="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#陳述知識">ABS</材質>
+        <材質 rdf:datatype="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#陳述知識">SPCC 冷軋鋼板</材質>
     </owl:NamedIndividual>
     
 
@@ -1130,6 +1133,7 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#乘載HDD">
         <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#Hold_HDD"/>
         <How rdf:datatype="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#陳述知識">托盤上就是有對應HDD孔洞的四個小Pin，要裝上去就是把托盤直接往兩側掰彎然後讓Pin去對準HDD的洞在合起來</How>
+        <材質 rdf:datatype="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#陳述知識">ABS</材質>
     </owl:NamedIndividual>
     
 
