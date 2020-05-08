@@ -1001,14 +1001,6 @@
     
 
 
-    <!-- http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#MasterCase_MC500_SSD_Stock -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#MasterCase_MC500_SSD_Stock">
-        <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#SSD_Stock"/>
-    </owl:NamedIndividual>
-    
-
-
     <!-- http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#MasterCase_MC500_Upper_DustCover -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#MasterCase_MC500_Upper_DustCover">
@@ -1089,6 +1081,15 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#MasterCase_Rubber_Fit">
         <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#Rubber_Fit"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#MasterCase_SSD_Stock -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#MasterCase_SSD_Stock">
+        <rdf:type rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#SSD_Stock"/>
+        <has rdf:resource="http://www.semanticweb.org/proladon/ontologies/2020/1/PC_CASE#乘載SSD"/>
     </owl:NamedIndividual>
     
 
